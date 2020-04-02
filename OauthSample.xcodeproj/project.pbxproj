@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F8B3668243460F9001A846A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B3667243460F9001A846A /* AppDelegate.swift */; };
+		3F8B366A243460F9001A846A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B3669243460F9001A846A /* SceneDelegate.swift */; };
+		3F8B366C243460F9001A846A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B366B243460F9001A846A /* ViewController.swift */; };
+		3F8B366F243460F9001A846A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B366D243460F9001A846A /* Main.storyboard */; };
+		3F8B367124346100001A846A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B367024346100001A846A /* Assets.xcassets */; };
+		3F8B367424346100001A846A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F8B367224346100001A846A /* LaunchScreen.storyboard */; };
+		3F8B367F24346100001A846A /* OauthSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B367E24346100001A846A /* OauthSampleTests.swift */; };
+		3F8B368A24346100001A846A /* OauthSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B368924346100001A846A /* OauthSampleUITests.swift */; };
+		3F8B369924346191001A846A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F8B369824346191001A846A /* Constants.swift */; };
+		703435371834BB6CD70B997F /* Pods_OauthSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F11E67C861B37DF6A1EEF251 /* Pods_OauthSample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F8B367B24346100001A846A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8B365C243460F9001A846A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F8B3663243460F9001A846A;
+			remoteInfo = OauthSample;
+		};
+		3F8B368624346100001A846A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F8B365C243460F9001A846A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F8B3663243460F9001A846A;
+			remoteInfo = OauthSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F8B3664243460F9001A846A /* OauthSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OauthSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8B3667243460F9001A846A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F8B3669243460F9001A846A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F8B366B243460F9001A846A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F8B366E243460F9001A846A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F8B367024346100001A846A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F8B367324346100001A846A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F8B367524346100001A846A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8B367A24346100001A846A /* OauthSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OauthSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8B367E24346100001A846A /* OauthSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OauthSampleTests.swift; sourceTree = "<group>"; };
+		3F8B368024346100001A846A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8B368524346100001A846A /* OauthSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OauthSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8B368924346100001A846A /* OauthSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OauthSampleUITests.swift; sourceTree = "<group>"; };
+		3F8B368B24346100001A846A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8B369824346191001A846A /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		65AED8445755694F07B3002E /* Pods-OauthSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OauthSample.debug.xcconfig"; path = "Target Support Files/Pods-OauthSample/Pods-OauthSample.debug.xcconfig"; sourceTree = "<group>"; };
+		DE518BE646CC2E4BBA255BB5 /* Pods-OauthSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OauthSample.release.xcconfig"; path = "Target Support Files/Pods-OauthSample/Pods-OauthSample.release.xcconfig"; sourceTree = "<group>"; };
+		F11E67C861B37DF6A1EEF251 /* Pods_OauthSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OauthSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F8B3661243460F9001A846A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				703435371834BB6CD70B997F /* Pods_OauthSample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8B367724346100001A846A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8B368224346100001A846A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F8B365B243460F9001A846A = {
+			isa = PBXGroup;
+			children = (
+				3F8B3666243460F9001A846A /* OauthSample */,
+				3F8B367D24346100001A846A /* OauthSampleTests */,
+				3F8B368824346100001A846A /* OauthSampleUITests */,
+				3F8B3665243460F9001A846A /* Products */,
+				A61172CA2AAE02BA685EB4E3 /* Pods */,
+				4BBE4EAC82F1C4BD6635DFC6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F8B3665243460F9001A846A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B3664243460F9001A846A /* OauthSample.app */,
+				3F8B367A24346100001A846A /* OauthSampleTests.xctest */,
+				3F8B368524346100001A846A /* OauthSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F8B3666243460F9001A846A /* OauthSample */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B369724346177001A846A /* Constants */,
+				3F8B3667243460F9001A846A /* AppDelegate.swift */,
+				3F8B3669243460F9001A846A /* SceneDelegate.swift */,
+				3F8B366B243460F9001A846A /* ViewController.swift */,
+				3F8B366D243460F9001A846A /* Main.storyboard */,
+				3F8B367024346100001A846A /* Assets.xcassets */,
+				3F8B367224346100001A846A /* LaunchScreen.storyboard */,
+				3F8B367524346100001A846A /* Info.plist */,
+			);
+			path = OauthSample;
+			sourceTree = "<group>";
+		};
+		3F8B367D24346100001A846A /* OauthSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B367E24346100001A846A /* OauthSampleTests.swift */,
+				3F8B368024346100001A846A /* Info.plist */,
+			);
+			path = OauthSampleTests;
+			sourceTree = "<group>";
+		};
+		3F8B368824346100001A846A /* OauthSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B368924346100001A846A /* OauthSampleUITests.swift */,
+				3F8B368B24346100001A846A /* Info.plist */,
+			);
+			path = OauthSampleUITests;
+			sourceTree = "<group>";
+		};
+		3F8B369724346177001A846A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				3F8B369824346191001A846A /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		4BBE4EAC82F1C4BD6635DFC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F11E67C861B37DF6A1EEF251 /* Pods_OauthSample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A61172CA2AAE02BA685EB4E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65AED8445755694F07B3002E /* Pods-OauthSample.debug.xcconfig */,
+				DE518BE646CC2E4BBA255BB5 /* Pods-OauthSample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F8B3663243460F9001A846A /* OauthSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8B368E24346100001A846A /* Build configuration list for PBXNativeTarget "OauthSample" */;
+			buildPhases = (
+				07677B4F37A98A63AA1C8E86 /* [CP] Check Pods Manifest.lock */,
+				3F8B3660243460F9001A846A /* Sources */,
+				3F8B3661243460F9001A846A /* Frameworks */,
+				3F8B3662243460F9001A846A /* Resources */,
+				5091B19DFC840DB4041F936B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OauthSample;
+			productName = OauthSample;
+			productReference = 3F8B3664243460F9001A846A /* OauthSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F8B367924346100001A846A /* OauthSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8B369124346100001A846A /* Build configuration list for PBXNativeTarget "OauthSampleTests" */;
+			buildPhases = (
+				3F8B367624346100001A846A /* Sources */,
+				3F8B367724346100001A846A /* Frameworks */,
+				3F8B367824346100001A846A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8B367C24346100001A846A /* PBXTargetDependency */,
+			);
+			name = OauthSampleTests;
+			productName = OauthSampleTests;
+			productReference = 3F8B367A24346100001A846A /* OauthSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F8B368424346100001A846A /* OauthSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8B369424346100001A846A /* Build configuration list for PBXNativeTarget "OauthSampleUITests" */;
+			buildPhases = (
+				3F8B368124346100001A846A /* Sources */,
+				3F8B368224346100001A846A /* Frameworks */,
+				3F8B368324346100001A846A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F8B368724346100001A846A /* PBXTargetDependency */,
+			);
+			name = OauthSampleUITests;
+			productName = OauthSampleUITests;
+			productReference = 3F8B368524346100001A846A /* OauthSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F8B365C243460F9001A846A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Jane Abraham";
+				TargetAttributes = {
+					3F8B3663243460F9001A846A = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					3F8B367924346100001A846A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3F8B3663243460F9001A846A;
+					};
+					3F8B368424346100001A846A = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 3F8B3663243460F9001A846A;
+					};
+				};
+			};
+			buildConfigurationList = 3F8B365F243460F9001A846A /* Build configuration list for PBXProject "OauthSample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F8B365B243460F9001A846A;
+			productRefGroup = 3F8B3665243460F9001A846A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F8B3663243460F9001A846A /* OauthSample */,
+				3F8B367924346100001A846A /* OauthSampleTests */,
+				3F8B368424346100001A846A /* OauthSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F8B3662243460F9001A846A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8B367424346100001A846A /* LaunchScreen.storyboard in Resources */,
+				3F8B367124346100001A846A /* Assets.xcassets in Resources */,
+				3F8B366F243460F9001A846A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8B367824346100001A846A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8B368324346100001A846A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07677B4F37A98A63AA1C8E86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OauthSample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5091B19DFC840DB4041F936B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OauthSample/Pods-OauthSample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OauthSample/Pods-OauthSample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OauthSample/Pods-OauthSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F8B3660243460F9001A846A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8B366C243460F9001A846A /* ViewController.swift in Sources */,
+				3F8B3668243460F9001A846A /* AppDelegate.swift in Sources */,
+				3F8B366A243460F9001A846A /* SceneDelegate.swift in Sources */,
+				3F8B369924346191001A846A /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8B367624346100001A846A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8B367F24346100001A846A /* OauthSampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F8B368124346100001A846A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F8B368A24346100001A846A /* OauthSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F8B367C24346100001A846A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F8B3663243460F9001A846A /* OauthSample */;
+			targetProxy = 3F8B367B24346100001A846A /* PBXContainerItemProxy */;
+		};
+		3F8B368724346100001A846A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F8B3663243460F9001A846A /* OauthSample */;
+			targetProxy = 3F8B368624346100001A846A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F8B366D243460F9001A846A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8B366E243460F9001A846A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F8B367224346100001A846A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F8B367324346100001A846A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F8B368C24346100001A846A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F8B368D24346100001A846A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F8B368F24346100001A846A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65AED8445755694F07B3002E /* Pods-OauthSample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N68L87XQU8;
+				INFOPLIST_FILE = OauthSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MSALSample.info;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F8B369024346100001A846A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE518BE646CC2E4BBA255BB5 /* Pods-OauthSample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N68L87XQU8;
+				INFOPLIST_FILE = OauthSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.MSALSample.info;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3F8B369224346100001A846A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N68L87XQU8;
+				INFOPLIST_FILE = OauthSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Info.OauthSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OauthSample.app/OauthSample";
+			};
+			name = Debug;
+		};
+		3F8B369324346100001A846A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N68L87XQU8;
+				INFOPLIST_FILE = OauthSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Info.OauthSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OauthSample.app/OauthSample";
+			};
+			name = Release;
+		};
+		3F8B369524346100001A846A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N68L87XQU8;
+				INFOPLIST_FILE = OauthSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Info.OauthSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OauthSample;
+			};
+			name = Debug;
+		};
+		3F8B369624346100001A846A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N68L87XQU8;
+				INFOPLIST_FILE = OauthSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Info.OauthSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OauthSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F8B365F243460F9001A846A /* Build configuration list for PBXProject "OauthSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8B368C24346100001A846A /* Debug */,
+				3F8B368D24346100001A846A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8B368E24346100001A846A /* Build configuration list for PBXNativeTarget "OauthSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8B368F24346100001A846A /* Debug */,
+				3F8B369024346100001A846A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8B369124346100001A846A /* Build configuration list for PBXNativeTarget "OauthSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8B369224346100001A846A /* Debug */,
+				3F8B369324346100001A846A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F8B369424346100001A846A /* Build configuration list for PBXNativeTarget "OauthSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8B369524346100001A846A /* Debug */,
+				3F8B369624346100001A846A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F8B365C243460F9001A846A /* Project object */;
+}
